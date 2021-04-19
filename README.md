@@ -5,7 +5,7 @@
 [![Demo: lgpdsoft.com](https://img.shields.io/badge/Demo-Online-success?style=flat-square "Demo: lgpdsoft.com")](https://lgpdsoft.com/projects/plugin-cookies/embed)
 [![Author: LGPDSOFT](https://img.shields.io/github/stars/lgpdsoft?label=Stars%20★&style=social "Stars GitHub Project")](https://github.com/lgpdsoft/pdf-builder)
 
-# 💎 Cookies Plugin
+# 💎 Embed Cookies Plugin
 
 Adicione o código de incorporação no final da página principal do seu site para criar o banner de consentimento dos cookies usados. Personalize o link que levará o usuário para a Política de Privacidade que explicará melhor como os cookies são utilizados.
 
