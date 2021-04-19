@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script>
+		if ('serviceWorker' in navigator) {
+			window.addEventListener('load', function() {
+			navigator.serviceWorker.register('sw.js')
+			.then(function() { /* console.log("Service Worker Registered."); */ });
+			});
+		}  
+	</script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="assets/img/favicon/android-chrome-192x192.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon/favicon-16x16.png">
+	<link rel="manifest" href="manifest.json">
+	<link rel="mask-icon" href="assets/img/favicon/safari-pinned-tab.svg" color="#7b7b7b">
+	<meta name="apple-mobile-web-app-title" content="LGPDSOFT">
+	<meta name="application-name" content="LGPDSOFT">
+	<meta name="msapplication-TileColor" content="#2d89ef">
+	<meta name="msapplication-TileImage" content="assets/img/favicon/mstile-144x144.png">
+	<meta name="theme-color" content="#f5f5f0">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<link rel="apple-touch-startup-image" media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3)" href="assets/img/splashscreen/apple-launch-1125x2436.png">
+	<link rel="apple-touch-startup-image" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2)" href="assets/img/splashscreen/apple-launch-750x1334.png">
+	<link rel="apple-touch-startup-image" media="(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3)" href="assets/img/splashscreen/apple-launch-1242x2208.png">
+	<link rel="apple-touch-startup-image" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)" href="assets/img/splashscreen/apple-launch-640x1136.png">
+	<link rel="apple-touch-startup-image" media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2)" href="assets/img/splashscreen/apple-launch-1536x2048.png">
+	<link rel="apple-touch-startup-image" media="(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2)" href="assets/img/splashscreen/apple-launch-1668x2224.png">
+	<link rel="apple-touch-startup-image" media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2)" href="assets/img/splashscreen/apple-launch-2048x2732.png">
+	<title>LGPDSOFT - Embed Plugin de Cookies LGPD</title>
+	<meta name="description" content="Planejamento e desenvolvimento de ferramentas tecnológicas para auxiliar os processos de adequação à Lei 13.709/18 — LGPD.">
+	<meta name="keywords" content="lgpdsoft, lgpd, soft, privacidade, seguranca, dados, pessoais, controle, acesso, transparencia, politica, cookie, termos, condicoes, ferramenta, tecnologia, adequacao">
+	<meta name="author" content="LGPDSOFT (contato@lgpdsoft.com)">
+	<meta name="robots" content="index, follow">
+	<meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+	<meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+	<link rel="canonical" href="https://lgpdsoft.com/projects/plugin-cookies/embed">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@lgpdsoft">
+	<meta name="twitter:creator" content="@lgpdsoft">
+	<meta name="twitter:title" content="LGPDSOFT - Ferramentas tecnológicas para adequação à LGPD">
+	<meta name="twitter:description" content="Planejamento e desenvolvimento de ferramentas tecnológicas para auxiliar os processos de adequação à Lei 13.709/18 — LGPD.">
+	<meta name="twitter:image" content="assets/img/seo/20210330_600x333.png">
+	<meta property="fb:app_id" content="106659748189873">
+	<meta property="og:site_name" content="LGPDSOFT">
+	<meta property="og:url" content="https://lgpdsoft.com">
+	<meta property="og:title" content="LGPDSOFT - Ferramentas tecnológicas para adequação à LGPD">
+	<meta property="og:description" content="Planejamento e desenvolvimento de ferramentas tecnológicas para auxiliar os processos de adequação à Lei 13.709/18 — LGPD.">
+	<meta property="og:type" content="website">
+	<meta property="og:image" content="assets/img/seo/20210330_1200x628.png">
+	<meta property="og:image:alt" content="LGPDSOFT - Planejamento e desenvolvimento de ferramentas tecnológicas para auxiliar os processos de adequação à Lei 13.709/18 — LGPD" />
+	<meta property="og:image:secure_url" content="https://lgpdsoft.com/projects/plugin-cookies/embed/assets/img/seo/20210330_1200x628.png">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.2/css/bulma.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header>
+    <h1 class="header">
+      <img src="assets/img/brand_lgpdsoft.png" class="brand-shield" width="200px" alt="LGPDSOFT - Planejamento e desenvolvimento de ferramentas tecnológicas para auxiliar os processos de adequação à Lei 13.709/18 — LGPD">
+      <img src="assets/img/brand-br.png" class="brand-name" width="200px" alt="LGPDSOFT - Planejamento e desenvolvimento de ferramentas tecnológicas para auxiliar os processos de adequação à Lei 13.709/18 — LGPD">
+    </h1>
+  </header>
+  <main ng-app="app" class="content container is-fluid">
+    <div class="field-body">
+      <div class="field">
+        <div class="control">
+          <input type="text" class="input is-small" ng-model="message" placeholder="Mensagem de alerta" ng-click="message" ng-init="message='Este site usa cookies.'" required/>
+        </div>
+      </div>
+      <div class="field">
+        <div class="control">
+          <input type="text" class="input is-small" ng-model="link" placeholder="URL da Política de Privacidade" ng-click="link" ng-init="link='Saiba mais...'" />
+        </div>
+      </div>
+      <div class="field">
+        <div class="control">
+          <input type="text" class="input is-small" ng-model="consent" placeholder="Mensagem de consentimento" ng-click="consent" ng-init="consent='entendo e aceito'"/>
+        </div>
+      </div>
+    </div>
+    <div class="field mt-1em">
+      <div class="control">
+        <input type="text" class="input is-small" ng-model="url" placeholder="URL da Política de Privacidade" ng-click="url" ng-init="url='/privacy-policy'"/>
+      </div>
+    </div>
+<div><style>.lgpdsoft-cookie{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen,Ubuntu,Cantarell,'Open Sans','Helvetica Neue',sans-serif;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;opacity:1;padding:5px 8px 5px 8px;background-color:hsla(0,0%,100%,.9);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);border-radius:0;-webkit-box-shadow:none;box-shadow:none;pointer-events:visible;position:fixed;right:0;bottom:0;width:100%}.lgpdsoft-cookie-row{width:100%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;position:relative}@media (min-width:768px){.lgpdsoft-cookie{border-radius:40px;-webkit-box-shadow:0 5px 5px 0 rgba(0,0,0,.06);box-shadow:0 5px 5px 0 rgba(0,0,0,.06);right:1em;bottom:1em;width:-webkit-fit-content;width:-moz-fit-content;width:fit-content}.lgpdsoft-cookie-row{height:100%}}.lgpdsoft-cookie-icon{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;margin-right:10px}.lgpdsoft-cookie-text{position:relative;margin-right:10px;font-size:14px;font-weight:400;color:#000;line-height:normal;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.lgpdsoft-cookie-text a{text-decoration:none;color:#0072ff}.lgpdsoft-cookie-btn{padding:6px 13px;font-size:13px;font-weight:400;color:#1d1d1f;line-height:1.2em;background:#cca667;background:-webkit-linear-gradient(to right,#fdeed8,#cca667);background:linear-gradient(to right,#fdeed8,#cca667);border-radius:35px;border:1px solid #cca667;cursor:pointer;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;text-align:center;outline:0;-webkit-appearance:none;-moz-appearance:none;appearance:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}</style><div id="dataCookie" class="lgpdsoft-cookie" data-cookie="consent"><div class="lgpdsoft-cookie-row"><span class="lgpdsoft-cookie-icon"><svg width="19" height="19" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="middle-crumb"><polygon fill="#C3996B" points="27.7,45.6 34.6,44.4 34.3,40.8 32.2,38.3 25.6,39.7 "/><polygon fill="#754C28" points="27.3,43.9 30.1,44.4 31.1,40.1 28.2,39 25.6,41.4 "/></g><g id="bottom-pieces"><polygon fill="#C3996B" points="73.1,63 73.6,61.2 80.3,61.5 82.5,63.8 82.5,65.5 79,66.1 75.3,65.3 "/><polygon fill="#C3996B" points="85.3,67.7 85.8,65.4 85,64 82.1,64.2 82.1,66.8 83.5,67.7 "/><polygon fill="#C3996B" points="85.4,66.1 85.3,67.3 87,67.7 86.5,66.5 85.7,65.9 "/><polygon fill="#C3996B" points="81.6,65.9 81.6,65.4 82.3,65.3 82.2,66.4 81.8,66.4 "/><polygon fill="#C3996B" points="81.2,65.9 81.2,65.6 81.6,65.5 81.8,65.9 81.8,66.4 81.1,66.2 "/><polygon fill="#C3996B" points="80.4,65.6 80.3,66 80.7,66.2 81.3,66.1 81.3,65.6 80.8,65.5 "/><polygon fill="#C3996B" points="73.6,63.9 74,63.8 74.5,64.1 74.4,64.5 73.6,64.2 "/></g><g id="top-wedge"><polyline fill="#C3996B" points="1.9,45.2 0,39.8 3,30.9 9.1,23.7 9.5,23.5 12.4,19.4 13.1,18 17.3,10.4 23.2,9.3 29,5.9 33.4,2 43.7,0.4 45.3,1.1 50.8,0.8 57.6,1.2 62.9,0 68.3,3.9 76,7.8 87.3,13.6 90.7,21.3 93.8,26.2 85.5,27.4 73.1,33.2 66.7,39 64.2,38.7 54.8,40 50.5,42.2 47.4,42.3 42.6,40.3 36.6,39.6 "/><g><polygon fill="#754C28" points="25,35.4 19.1,40.7 22.2,43.4 27,41.3 32.6,40.6 31.7,37 "/><polygon fill="#754C28" points="48.5,24.2 48,29 53.1,31.2 56,26.9 52.7,24.1 "/><polygon fill="#754C28" points="75.8,14.9 68.7,16.3 67.1,23.9 73.9,25.5 78.1,21.3 "/><polygon fill="#754C28" points="28.2,16.5 30.9,22.3 35.5,21 36.2,16.8 33.4,13.8 "/></g></g><g id="top-pieces"><polygon fill="#C3996B" points="61.9,37.1 63.1,38.4 66.7,39 68.8,38.1 70.6,35.7 69.8,33.4 65.6,33.4 61.9,35.5 "/><polygon fill="#C3996B" points="70.8,32 69.3,34.1 70.8,35.7 72.6,34.3 73.1,33.2 "/><polygon fill="#C3996B" points="61.2,37.1 63.1,37.2 63.7,38.5 62.8,39.1 61,39 60.9,37.6 "/><polygon fill="#C3996B" points="61.6,36.1 62.5,36.4 62.7,37.4 62.2,37.6 61.4,37.3 "/><polygon fill="#C3996B" points="60.5,37.9 61.2,37.6 61.5,38.1 61.4,39 60.3,39 60.2,38.2 "/><polygon fill="#C3996B" points="73.2,31.7 72.4,32 71.8,33.1 72.9,33.5 74.3,32.8 "/><polygon fill="#C3996B" points="74,31.9 73.5,32.2 73.5,32.5 73.9,32.7 74.5,32.7 75,32.3 "/></g><g id="bottom-wedge"><polygon fill="#C3996B" points="1.9,45.2 1.7,50.3 2.2,57.4 1.1,59.1 0.2,65.5 3.9,67.5 5.6,71.6 7.3,73.2 14,83.1 14.7,87.9 19.4,88.4 19.4,88.4 28.6,94.4 37.2,99.7 43.9,99.3 50.8,99.8 56.3,99.5 60.9,100 66,97.4 72.4,94.8 79.6,92.2 82.6,88.1 88.5,82 88.8,81.8 98.4,70.6 94.8,70.3 92.8,71.3 90.8,70.5 88.8,69.3 86.9,67.6 85.3,67.2 85.2,67.6 83.6,67.5 82.2,66.3 80.4,65.8 79.1,66 75.3,65.3 73.2,63 73.6,61.8 70.7,58.3 67.1,56.8 60.2,51.1 56.6,50.7 55.3,50.1 51.1,45.4 47.9,43.8 46.9,41.9 42.7,40.2 36.6,39.5 14.6,42.8 "/><g><polygon fill="#754C28" points="35,80.1 34.5,83.8 41.9,85.6 43.5,78.7 39.3,77.7 "/><polygon fill="#754C28" points="37,59.8 37,65.4 45.5,66.6 49,61 43.7,56.4 "/><polygon fill="#754C28" points="61.6,75.6 61,81.2 68.5,82.8 70,80.3 67.4,74.4 "/><polygon fill="#754C28" points="15.6,61 14.6,66.2 18.6,68.9 22.6,64.7 20.2,61.9 "/><polygon fill="#754C28" points="26.3,39.4 20.5,41.9 26.9,47.4 33.1,42.9 32.1,38.7 "/></g></g><g id="right-wedge"><polygon fill="#C3996B" points="98.4,70.6 100,59.1 99.6,56.9 99.6,56.9 100,50.3 99.8,46 100,41.7 97.9,36.1 97.6,35.1 97.4,32.6 97.6,28.4 94.9,26.3 93.8,26.2 85.1,26.8 77.1,31.1 72.9,33.2 67.2,38.6 64.1,38.3 54.5,39.6 50.6,41.7 46.9,41.9 47.7,44 51,45.5 55.2,50.2 56.6,50.8 60.2,51.2 67,56.9 70.6,58.4 73.5,61.8 80.1,61.9 82.1,64.2 84.6,64.3 86.2,67.1 88.7,69.4 90.8,70.6 92.8,71.5 94.9,70.4 "/><g><polygon fill="#754C28" points="75.8,36.7 77.5,39.6 84.3,41.5 85.8,34.7 78.5,34.3 "/><polygon fill="#754C28" points="59.8,47.6 59.8,53.6 66.5,55.5 69.8,49.5 63.2,45.9 "/><polygon fill="#754C28" points="87.4,53 83.9,57.7 88.2,62.2 93.9,60.6 93.9,53 "/></g></g></svg></span> <span class="lgpdsoft-cookie-text">{{message}}<br><a href="{{url}}">{{link}}</a></span> <button id="createConsent" class="lgpdsoft-cookie-btn">{{consent}}</button></div></div></div>
+    <div class="field mt-1em">
+      <div class="control">
+        <textarea id="myInput" class="textarea is-fullwidth is-embed" readonly><div><style>.lgpdsoft-cookie{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen,Ubuntu,Cantarell,'Open Sans','Helvetica Neue',sans-serif;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;opacity:0;padding:5px 8px 5px 8px;background-color:hsla(0,0%,100%,.9);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);border-radius:0;-webkit-box-shadow:none;box-shadow:none;pointer-events:visible;position:fixed;right:0;bottom:0;width:100%}.lgpdsoft-cookie-row{width:100%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;position:relative}@media (min-width:768px){.lgpdsoft-cookie{border-radius:40px;-webkit-box-shadow:0 5px 5px 0 rgba(0,0,0,.06);box-shadow:0 5px 5px 0 rgba(0,0,0,.06);right:1em;bottom:1em;width:-webkit-fit-content;width:-moz-fit-content;width:fit-content}.lgpdsoft-cookie-row{height:100%}}.lgpdsoft-cookie-icon{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;margin-right:10px}.lgpdsoft-cookie-text{position:relative;margin-right:10px;font-size:14px;font-weight:400;color:#000;line-height:normal;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.lgpdsoft-cookie-text a{text-decoration:none;color:#0072ff}.lgpdsoft-cookie-btn{padding:6px 13px;font-size:13px;font-weight:400;color:#1d1d1f;line-height:1.2em;background:#cca667;background:-webkit-linear-gradient(to right,#fdeed8,#cca667);background:linear-gradient(to right,#fdeed8,#cca667);border-radius:35px;border:1px solid #cca667;cursor:pointer;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;text-align:center;outline:0;-webkit-appearance:none;-moz-appearance:none;appearance:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}</style><div id="dataCookie" class="lgpdsoft-cookie" data-cookie="consent"><div class="lgpdsoft-cookie-row"><span class="lgpdsoft-cookie-icon"><svg width="19" height="19" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="middle-crumb"><polygon fill="#C3996B" points="27.7,45.6 34.6,44.4 34.3,40.8 32.2,38.3 25.6,39.7 "/><polygon fill="#754C28" points="27.3,43.9 30.1,44.4 31.1,40.1 28.2,39 25.6,41.4 "/></g><g id="bottom-pieces"><polygon fill="#C3996B" points="73.1,63 73.6,61.2 80.3,61.5 82.5,63.8 82.5,65.5 79,66.1 75.3,65.3 "/><polygon fill="#C3996B" points="85.3,67.7 85.8,65.4 85,64 82.1,64.2 82.1,66.8 83.5,67.7 "/><polygon fill="#C3996B" points="85.4,66.1 85.3,67.3 87,67.7 86.5,66.5 85.7,65.9 "/><polygon fill="#C3996B" points="81.6,65.9 81.6,65.4 82.3,65.3 82.2,66.4 81.8,66.4 "/><polygon fill="#C3996B" points="81.2,65.9 81.2,65.6 81.6,65.5 81.8,65.9 81.8,66.4 81.1,66.2 "/><polygon fill="#C3996B" points="80.4,65.6 80.3,66 80.7,66.2 81.3,66.1 81.3,65.6 80.8,65.5 "/><polygon fill="#C3996B" points="73.6,63.9 74,63.8 74.5,64.1 74.4,64.5 73.6,64.2 "/></g><g id="top-wedge"><polyline fill="#C3996B" points="1.9,45.2 0,39.8 3,30.9 9.1,23.7 9.5,23.5 12.4,19.4 13.1,18 17.3,10.4 23.2,9.3 29,5.9 33.4,2 43.7,0.4 45.3,1.1 50.8,0.8 57.6,1.2 62.9,0 68.3,3.9 76,7.8 87.3,13.6 90.7,21.3 93.8,26.2 85.5,27.4 73.1,33.2 66.7,39 64.2,38.7 54.8,40 50.5,42.2 47.4,42.3 42.6,40.3 36.6,39.6 "/><g><polygon fill="#754C28" points="25,35.4 19.1,40.7 22.2,43.4 27,41.3 32.6,40.6 31.7,37 "/><polygon fill="#754C28" points="48.5,24.2 48,29 53.1,31.2 56,26.9 52.7,24.1 "/><polygon fill="#754C28" points="75.8,14.9 68.7,16.3 67.1,23.9 73.9,25.5 78.1,21.3 "/><polygon fill="#754C28" points="28.2,16.5 30.9,22.3 35.5,21 36.2,16.8 33.4,13.8 "/></g></g><g id="top-pieces"><polygon fill="#C3996B" points="61.9,37.1 63.1,38.4 66.7,39 68.8,38.1 70.6,35.7 69.8,33.4 65.6,33.4 61.9,35.5 "/><polygon fill="#C3996B" points="70.8,32 69.3,34.1 70.8,35.7 72.6,34.3 73.1,33.2 "/><polygon fill="#C3996B" points="61.2,37.1 63.1,37.2 63.7,38.5 62.8,39.1 61,39 60.9,37.6 "/><polygon fill="#C3996B" points="61.6,36.1 62.5,36.4 62.7,37.4 62.2,37.6 61.4,37.3 "/><polygon fill="#C3996B" points="60.5,37.9 61.2,37.6 61.5,38.1 61.4,39 60.3,39 60.2,38.2 "/><polygon fill="#C3996B" points="73.2,31.7 72.4,32 71.8,33.1 72.9,33.5 74.3,32.8 "/><polygon fill="#C3996B" points="74,31.9 73.5,32.2 73.5,32.5 73.9,32.7 74.5,32.7 75,32.3 "/></g><g id="bottom-wedge"><polygon fill="#C3996B" points="1.9,45.2 1.7,50.3 2.2,57.4 1.1,59.1 0.2,65.5 3.9,67.5 5.6,71.6 7.3,73.2 14,83.1 14.7,87.9 19.4,88.4 19.4,88.4 28.6,94.4 37.2,99.7 43.9,99.3 50.8,99.8 56.3,99.5 60.9,100 66,97.4 72.4,94.8 79.6,92.2 82.6,88.1 88.5,82 88.8,81.8 98.4,70.6 94.8,70.3 92.8,71.3 90.8,70.5 88.8,69.3 86.9,67.6 85.3,67.2 85.2,67.6 83.6,67.5 82.2,66.3 80.4,65.8 79.1,66 75.3,65.3 73.2,63 73.6,61.8 70.7,58.3 67.1,56.8 60.2,51.1 56.6,50.7 55.3,50.1 51.1,45.4 47.9,43.8 46.9,41.9 42.7,40.2 36.6,39.5 14.6,42.8 "/><g><polygon fill="#754C28" points="35,80.1 34.5,83.8 41.9,85.6 43.5,78.7 39.3,77.7 "/><polygon fill="#754C28" points="37,59.8 37,65.4 45.5,66.6 49,61 43.7,56.4 "/><polygon fill="#754C28" points="61.6,75.6 61,81.2 68.5,82.8 70,80.3 67.4,74.4 "/><polygon fill="#754C28" points="15.6,61 14.6,66.2 18.6,68.9 22.6,64.7 20.2,61.9 "/><polygon fill="#754C28" points="26.3,39.4 20.5,41.9 26.9,47.4 33.1,42.9 32.1,38.7 "/></g></g><g id="right-wedge"><polygon fill="#C3996B" points="98.4,70.6 100,59.1 99.6,56.9 99.6,56.9 100,50.3 99.8,46 100,41.7 97.9,36.1 97.6,35.1 97.4,32.6 97.6,28.4 94.9,26.3 93.8,26.2 85.1,26.8 77.1,31.1 72.9,33.2 67.2,38.6 64.1,38.3 54.5,39.6 50.6,41.7 46.9,41.9 47.7,44 51,45.5 55.2,50.2 56.6,50.8 60.2,51.2 67,56.9 70.6,58.4 73.5,61.8 80.1,61.9 82.1,64.2 84.6,64.3 86.2,67.1 88.7,69.4 90.8,70.6 92.8,71.5 94.9,70.4 "/><g><polygon fill="#754C28" points="75.8,36.7 77.5,39.6 84.3,41.5 85.8,34.7 78.5,34.3 "/><polygon fill="#754C28" points="59.8,47.6 59.8,53.6 66.5,55.5 69.8,49.5 63.2,45.9 "/><polygon fill="#754C28" points="87.4,53 83.9,57.7 88.2,62.2 93.9,60.6 93.9,53 "/></g></g></svg></span> <span class="lgpdsoft-cookie-text">{{message}}<br><a href="{{url}}">{{link}}</a></span> <button id="createConsent" class="lgpdsoft-cookie-btn">{{consent}}</button></div></div><script>!function(){"use strict";const e=document.querySelector("#createConsent"),t=document.querySelector("#dataCookie");e.addEventListener("click",function(){localStorage.setItem("lgpdsoft-cookie",t.dataset.cookie),t.style.opacity=0}),localStorage.getItem("lgpdsoft-cookie")||(t.style.opacity=1)}();</script></div></textarea>
+      </div>
+      <button class="button is-small is-fullwidth is-embed mt-1em" onclick="copyEmbed()">Copiar código de incorporação</button>
+      <p class="p-notice">Ao utilizar esta incorporação, você concorda com a <a href="https://lgpdsoft.com/privacy-policy/" target="_blank">Política de Privacidade</a> da LGPDSOFT.</p>
+    </div>
+    <footer>
+      <p>
+        &copy; 2021 LGPDSOFT <sup>v1.0</sup>
+      </p>
+    </footer>
+  </main>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.8.2/angular.min.js"></script>
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
